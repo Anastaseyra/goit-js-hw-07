@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Task 1 */
+.categories {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  background: #fff;
+  width: 440px;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.item {
+  background: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border-radius: 4px;
+  padding: 8px 0 8px 16px;
+  border: 1px solid #808080;
+  width: 360px;
+}
+
+/* Task 2 */
+.gallery {
+  background: #fff;
+  display: flex;
+  margin: auto;
+  padding: 100px 156px;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+  max-width: 1440px;
+}
+
+/* Task 3 */
+
+.container-text {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+}
+
+.text-input {
+  width: 360px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-bottom: 16px;
+}
+
+.text-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* Task 4 */
+.login-form {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  display: block;
+  margin: 0;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.email {
+  margin-bottom: 8px;
+}
+
+.password {
+  margin-bottom: 16px;
+}
+
+.label-input {
+  width: 360px;
+  height: 40px;
+}
+
+.form-button {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 86px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/* Task 5 */
+.widget {
+  width: 345px;
+  height: 280px;
+  padding: 100px 88px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  margin: auto;
+  border-radius: 8px;
+  background: #fff;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.change-color {
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+  width: 148px;
+  background: #4e75ff;
+  display: block;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+
+/* Task 6 */
+.container {
+  width: 486px;
+  display: flex;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.controls {
+  gap: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+.controls-input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  min-width: 150px;
+  background: #f6f6fe;
+}
+
+.controls-btn-create {
+  border-radius: 8px;
+  padding: 8px;
+  width: 120px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  align-items: center;
+  border: none;
+  margin: 0 auto;
+}
+
+.controls-btn-destroy {
+  border-radius: 8px;
+  padding: 8px;
+  width: 120px;
+  background-color: #ff4e4e;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  align-items: center;
+  border: none;
+  margin: 0 auto;
+}
+
+.boxes {
+  /* flex-direction: column; */
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}
